@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log
+server.log
+
+# Environment variables
+.env
+ENV~1
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
