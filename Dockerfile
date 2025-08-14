@@ -47,7 +47,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy package.json and package-lock.json first to leverage Docker cache
-COPY package*.json ./
+COPY package.json ./
+COPY package-lock.json ./
 
 # Use npm ci for faster, more reliable builds
 # Also, prevent Puppeteer from downloading a browser binary during this step
