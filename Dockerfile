@@ -1,5 +1,5 @@
-# Use a Node.js 18 base image that's Debian-based
-FROM node:18-slim
+# Use a Node.js 20 base image that's Debian-based
+FROM node:20-slim
 
 # Set up the working directory
 WORKDIR /app
